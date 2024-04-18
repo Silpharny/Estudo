@@ -1,0 +1,31 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: end;
+    color: #A38314;
+}
+
+#centralizado {
+    text-align: center;
+    color: #F00A0A;
+}
+
+#alinhado_direita {
+    text-align: end;
+    color: #1B137B;
+}
+
+#alinhado_esquerda {
+    text-align: start;
+    color: #0B6B2C;
+}
+
+#alinhado_justificado {
+    text-align: justify;
+    color: #000000;
+}
+

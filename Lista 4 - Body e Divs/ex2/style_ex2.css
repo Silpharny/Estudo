@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1140px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 20px 0;
+}
+
+article {
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2D8067;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+
+.sec, .sec {
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+    text-align: end;
+    font-weight: 600;
+}
+

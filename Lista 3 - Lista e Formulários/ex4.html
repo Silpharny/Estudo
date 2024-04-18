@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista e Formulários</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" />
+
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="sobrenome" />
+      </fieldset>
+
+      <fieldset>
+        <br />
+        <label for="endereco">Endereço: </label>
+        <br><br>
+        <input type="text" name="endereco" id="endereco" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+        <br>
+        <label for="escolaridade">Escolaridade: </label>
+        <select name="escolaridade" id="escolaridade">
+          <option type="checkbox" id="ensino_medio" />Ensino Médio
+          <label for=""></label>
+          <option type="checkbox" id="ensino_superior" />Ensino Superior
+          <label for=""></label>
+          <option type="checkbox" id="pos_graduacao" />Pós-Graduação
+          <label for=""></label>
+        </select>
+        <br>
+        <br>
+        <label for="trabalha">Trabalha atualmente?</label>
+        <br>
+        <input type="radio" name="trabalha" id="sim" />
+        <label for="sim">Sim</label>
+        <input type="radio" name="trabalha" id="nao" />
+        <label for="nao">Não</label>
+        <br>
+        <br>
+        <label for="cursos">Cursos:</label>
+        <br>
+        <br>
+        <input type="checkbox" name="cursos" id="informatica" />
+        <label for="informatica">Informática Básica</label>
+        <input type="checkbox" name="cursos" id="secretariado" />
+        <label for="secretariado">Secretariado</label>
+        <input type="checkbox" name="cursos" id="log_prog" />
+        <label for="log_prog">Lógica de programação</label>
+        <input type="checkbox" name="cursos" id="html_css" />
+        <label for="html_css">HTML e CSS</label>
+        <input type="checkbox" name="cursos" id="javascript" />
+        <label for="javascript">JavaScript</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Pesquisa</legend>
+        <label for="viagem">Já fez viagem para o exterior?</label>
+        <br>
+        <br>
+        <input type="radio" name="viagem" id="sim2" />
+        <label for="sim2">Sim</label>
+        <input type="radio" name="viagem" id="nao2" />
+        <label for="nao2">Não</label>
+        <br>
+        <br>
+        <label for="continente">Quais continentes despertam mais interesse?</label>
+        <br>
+        <br>
+        <input type="checkbox" id="america_sul" />
+        <label for="america_sul">América do Sul </label>
+        <input type="checkbox" id="america_norte" />
+        <label for="america_norte">América do Norte </label>
+        <input type="checkbox" id="america_central" />
+        <label for="america_central">América Central</label>
+        <input type="checkbox" id="africa" />
+        <label for="africa">África</label>
+        <input type="checkbox" id="asia" />
+        <label for="asia">Ásia</label>
+        <input type="checkbox" id="europa" />
+        <label for="europa">Europa</label>
+        <br>
+        <br>
+        <label for="paises">Cite ao menos 5 paises que pretende conhecer: </label>
+        <br>
+        <br>
+        <input type="text" name="paises" id="paises">
+        <br>
+        <br>
+        <label for="mensagem">Mensagem: </label>
+        <br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px 0;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#txtPrincipal {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h2 {
+    color: #FC3003;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.contact {
+    font-weight: 500;
+}
