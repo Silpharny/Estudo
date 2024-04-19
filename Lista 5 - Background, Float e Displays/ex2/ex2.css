@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 100vw;
+    height: 72vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    gap: 40px;
+}
+
+#base {
+    width: 18vw;
+    height: 64vh;
+
+    border: 1px solid rgb(00, 00, 00, 0.3);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+
+    color: white;
+    background-color: rgb(132, 88, 255);
+    border: 0;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: rgb(132, 88, 255, 0.7);
+    cursor: pointer;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, select {
+    width: 14vw;
+
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 6px;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#senhaEsquecida:hover {
+    color: rgb(132, 88, 255);
+    cursor: pointer;
+}
+
+footer {
+    height: 250px;
+    background-color: #F6511D;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;    
+}
+
+h3, .pFooter {
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+hr {
+    margin: 15px;
+}
+
+#divFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
