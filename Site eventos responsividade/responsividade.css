@@ -1,0 +1,12 @@
+@media(max-width:600px){
+
+    header nav{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    #geral {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

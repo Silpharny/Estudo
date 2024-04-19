@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul: #30359c;
+    --preto: #010101;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: var(--azul);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+header nav a img {
+    width: 140px;
+    padding: 10px;
+}
+
+nav, section {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+}
+
+.favorito {
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+.produto {
+    width: 200px;
+}
+
+.full {
+    background-color: var(--azul);
+    padding: 80px;
+    color: white;
+}
+
+#novidades {
+    display: flex;
+    justify-content: center;
+}
+
+.form_lead input {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+}
+
+.form_lead button {
+    background-color: var(--preto);
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    margin-top: 40px;
+    background-color: var(--azul);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+}

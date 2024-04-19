@@ -1,0 +1,42 @@
+header nav, header nav ul, #produtos {
+    flex-wrap: wrap;
+}
+
+/* MEDIA QUERY CELULAR*/
+
+@media(max-width:600px){
+
+    header nav, header nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #topo {
+        margin-top: 320px;
+    }
+
+    #produtos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .full {
+        padding: 10px;
+    }
+
+    .full h2{
+        font-size: 2rem;
+    }
+
+    .form_lead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;        
+        margin-bottom: 10px;
+    }
+
+    .form_lead button, .form_lead input {
+        max-width: 300px;
+    }
+}

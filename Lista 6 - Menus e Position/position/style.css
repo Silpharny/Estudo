@@ -1,0 +1,42 @@
+:root {
+    --azul: #30358c;
+    --preto: #010101;
+}
+
+
+.bloco {
+    width: 150px;
+    height: 150px;
+    background-color: var(--azul);
+} 
+
+.bloco_interno {
+    width: 50px;
+    height: 50px;
+    background-color: var(--preto);
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 100px;
+    background-color: red;
+}
+
+.absolute {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    background-color: yellow;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: purple;
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #730ac6;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
