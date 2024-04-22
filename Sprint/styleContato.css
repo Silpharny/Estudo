@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --vinho: #660027;
+    --cinza: #7d7777;
+}
+
+h1 {
+    font-size: 36px;
+    color: var(--vinho);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--vinho);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: var(--vinho);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    border: 2px solid var(--vinho);
+}
+
+main #form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+    
+}
+
+main #form form h1 {
+    text-align: center;
+}
+
+main #form form input {
+    width: 400px;
+    height: 42px;
+    border: 2px solid var(--vinho);
+}
+
+main #form form textarea {
+    width: 400px;
+    height: 125px;
+    border: 2px solid var(--vinho);
+}
+
+main #form form button {
+    width: 128px;
+    height: 42px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--vinho);
+}
+
+main #contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+
+    background-color: var(--vinho);
+    color: white;
+    padding: 40px;
+
+}

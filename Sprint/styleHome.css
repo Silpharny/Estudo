@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --vinho: #660027;
+    --cinza: #7d7777;
+}
+
+h1 {
+    font-size: 36px;
+    color: var(--vinho);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--vinho);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: var(--vinho);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main #sec1 p, main #sec2 div p {
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+main #sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main #sec2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #sec2 .container {
+    max-width: 250px;
+    border: 1px solid rgb(00, 00, 00, 0.2);
+}
+
+main #sec2 .container .div_info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+main #sec2 .container button {
+    width: 128px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid var(--vinho);
+    border-radius: 4px;
+    color: var(--vinho);
+
+    align-self: center;
+}
+
+main #sec2 .container button:hover {
+    background-color: var(--vinho);
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--vinho);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
