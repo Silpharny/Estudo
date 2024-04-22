@@ -1,0 +1,28 @@
+@media(max-width: 600px) {
+    nav {
+        max-width: 155px;
+        gap: 30px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav img {
+        width: 150px;
+    }  
+
+    main {
+        max-width: 440px;
+    }
+
+    main img {
+        display: none;
+        visibility: hidden;       
+    }
+
+    main #sec2 {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+}

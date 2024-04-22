@@ -1,0 +1,41 @@
+@media(max-width: 600px) {
+    nav {
+        max-width: 155px;
+        gap: 30px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav img {
+        width: 150px;
+    }  
+
+    main {
+        flex-wrap: wrap;   
+        justify-content: center;
+    }
+
+    main #form {
+        max-width: 440px;
+    }
+
+    main #contact {
+        display: none;
+        visibility: hidden;
+    }
+    footer {
+        visibility: visible;
+
+        background-color: var(--vinho);
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+    }
+}
