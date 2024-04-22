@@ -1,4 +1,4 @@
-# Algoritimo 
+Algoritimo 
 
 Sequência finita de etapas para se chegar a um determinado objetivo
 

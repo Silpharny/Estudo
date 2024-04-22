@@ -1,0 +1,11 @@
+Variaveis e constantes
+
+São pequenos espaços na memoria do computador onde armazenamos os dados.
+
+Variaveis = São dados que vão variar ao longo do tempo
+
+    Exemplo : Peso, cartão de crédito que vou fazer um pagamento pode ser mudado para outro, dinheiro na conta, vezes que vou a academia, senha de contas
+
+Constantes = São dados que não tem variação ao longo do tempo 
+
+    Exemplo : Número de CPF, Token ou chave de acesso, 

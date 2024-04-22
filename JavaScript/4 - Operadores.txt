@@ -1,0 +1,22 @@
+Operadores aritiméticos
+
+Soma(+)
+Subtração(-)
+Multiplicação(*)
+Divisão(/)
+Potencia(**)
+Módulo(%)
+
+Operadores relacionais
+
+Maior que(>)
+Menor que(<)
+Igual que(==)
+Maior ou igual(>=)
+Menor ou igual(<=)
+Diferente de(!=)
+
+Operadores lógico
+
+e (&&)
+ou (||)

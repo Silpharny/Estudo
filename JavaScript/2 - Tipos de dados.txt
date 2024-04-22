@@ -1,0 +1,6 @@
+Tipos de dados primitivos
+
+Inteiro : 125
+Real : 125,75
+String : Sil Miranda
+Lógico : Verdadeiro / Falso
