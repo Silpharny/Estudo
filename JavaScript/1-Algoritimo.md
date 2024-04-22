@@ -1,0 +1,27 @@
+# Algoritimo 
+
+Sequência finita de etapas para se chegar a um determinado objetivo
+
+
+Exemplo: Supondo que tenha uma lâmpada queimada e queremos troca-la, qual o algoritimo para está situação?
+
+1 - Ir até o quadro de luz 
+2 - Desligar o disjuntor geral
+3 - Pegar uma escada
+4 - Levar a escada até a lâmpada queimada
+5 - Subir na escada
+6 - tirar a lâmpada queimada
+7 - Descer a escada
+8 - Pegar a lâmpada nova
+9 - Subir na escada
+10 - Enroscar a lâmpada nova
+11 - Descer a escada
+12 - Ir até o quadro de luz
+13 - Ligar o disjuntor geral
+14 - Ir até o interruptor da luz
+15 - Ligar o interruptor
+
+(estrutura condicional)
+
+16 - Se a luz ligar (finalizar o processo)
+17 - Se a luz não ligar (refazer todo o processo)
