@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+main #formulario, main #resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width:600px;
+    height: 600px;
+    border: 1px solid rgb(00, 00, 00, 0.7);
+}
+
+main #formulario p {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+main #formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+main #formulario form #sex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 15px 0;
+}
+
+main #formulario form label, main #formulario form #sex p  {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+main #formulario form input {
+    border: 1px solid rgb(00, 00, 00, 0.6);
+
+    padding: 10px;
+}
+
+main #formulario form button {
+    height: 40px;
+    margin: 20px 0;
+
+    background-color: black;
+    color: white;
+    border: none;
+
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+
+        <div id="formulario">
+            <p>Preencha o formulário</p>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                
+                <div id="sex">
+                    <p>Sexo: </p>
+                    <input type="radio" name="sexo" id="masculino" value="masculino">                
+                    <label for="masculino">Masculino</label>
+            
+                    <input type="radio" name="sexo" id="feminino" value="feminino">                
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade">
+            
+                <label for="altura">Altura</label>
+                <input type="number" name="altura" id="altura">
+            
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="peso">
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div id="resultado">
+            <p id="title">Diagnóstico prévio</p>
+            <section class="info">
+                <div class="dadosInfo"><span>Nome:</span><p id="nome"></p></div>
+                <div class="dadosInfo"><span>Sexo:</span><p id="sexo"></p></div>
+                <div class="dadosInfo"><span>Idade:</span><p id="idade"></p></div>
+                <div class="dadosInfo"><span>Altura:</span><p id="altura"></p></div>
+                <div class="dadosInfo"><span>Peso:</span><p id="peso"> </p></div>
+                <div class="dadosInfo"><span>Categoria:</span><p id="categoria"></p></div>
+            </section>
+
+            <section class="info">
+                <div class="dadosInfo"><span>IMC Desejável:</span><p id="imcDesejavel"></p></div>
+                <div class="dadosInfo"><span>Resultado IMC:</span><p id="resultadoIMC"></p></div>
+            </section>
+
+            <section class="info">
+                <div class="dadosInfo"><span>Riscos:</span><p id="riscos"></p></div>
+            </section>
+
+            <section class="info">
+                <div class="dadosInfo"><span>Recomendação Inicial:</span><p id="recomendacaoInicial"></p></div>
+            </section>
+        </div>
+
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
