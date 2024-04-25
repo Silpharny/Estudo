@@ -1,20 +1,6 @@
-let nome = document.querySelector('#nome')
-nome.textContent = "Maria"
-
-
-function CalcularIMC(peso, altura) {
-    
-    
-    let imcCalc = peso / (altura ** 2)
-    
-    let imc = document.querySelector('#resultadoIMC')
-    imc.textContent = imcCalc
-}
-
-function Categoria(idade) {
-    let idade = 
+function DarNome() {
+    let nomeInput = document.querySelector("#nome_input").value
+    let nomeOutput = document.querySelector("#nome_output")
+    nomeOutput.textContent = nomeInput
 
 }
-
-
-console.log(CalcularIMC(50, 2))

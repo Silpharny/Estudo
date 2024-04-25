@@ -29,8 +29,7 @@ main #formulario, main #resultado {
     border: 1px solid rgb(00, 00, 00, 0.7);
 }
 
-main #formulario p {
-    font-weight: bold;
+main #formulario h2 {
     margin: 20px 0;
 }
 
@@ -48,7 +47,7 @@ main #formulario form #sex {
     margin: 15px 0;
 }
 
-main #formulario form label, main #formulario form #sex p  {
+main #formulario form label, main #resultado #innerResultado .info .dadosInfo span  {
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -68,4 +67,26 @@ main #formulario form button {
     border: none;
 
     cursor: pointer;
+}
+
+main #resultado #innerResultado{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main #resultado #innerResultado .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main #resultado #innerResultado .info .dadosInfo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+main #resultado #innerResultado .info .dadosInfo p {
+    font-size: 0.9rem;
 }

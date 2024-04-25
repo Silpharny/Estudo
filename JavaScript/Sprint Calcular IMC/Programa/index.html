@@ -10,56 +10,59 @@
     <main>
 
         <div id="formulario">
-            <p>Preencha o formulário</p>
-            <form>
+            <h2>Preencha o formulário</h2>
+            <form action="">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome_input">
                 
                 <div id="sex">
                     <p>Sexo: </p>
-                    <input type="radio" name="sexo" id="masculino" value="masculino">                
+                    <input type="radio" name="sexo" id="masculino_input" value="masculino">                
                     <label for="masculino">Masculino</label>
             
-                    <input type="radio" name="sexo" id="feminino" value="feminino">                
+                    <input type="radio" name="sexo" id="feminino_input" value="feminino">                
                     <label for="feminino">Feminino</label>
                 </div>
 
                 <label for="idade">Idade</label>
-                <input type="number" name="idade" id="idade">
+                <input type="number" name="idade" id="idade_input">
             
                 <label for="altura">Altura</label>
-                <input type="number" name="altura" id="altura">
+                <input type="number" name="altura" id="altura_input">
             
                 <label for="peso">Peso</label>
-                <input type="number" name="peso" id="peso">
+                <input type="number" name="peso" id="peso_input">
             
-                <button type="submit">Enviar</button>
+                <button onclick="DarNome()">Enviar</button>
             </form>
         </div>
+        
 
         <div id="resultado">
-            <p id="title">Diagnóstico prévio</p>
-            <section class="info">
-                <div class="dadosInfo"><span>Nome:</span><p id="nome"></p></div>
-                <div class="dadosInfo"><span>Sexo:</span><p id="sexo"></p></div>
-                <div class="dadosInfo"><span>Idade:</span><p id="idade"></p></div>
-                <div class="dadosInfo"><span>Altura:</span><p id="altura"></p></div>
-                <div class="dadosInfo"><span>Peso:</span><p id="peso"> </p></div>
-                <div class="dadosInfo"><span>Categoria:</span><p id="categoria"></p></div>
-            </section>
+            <div id="innerResultado">
+                <h2>Diagnóstico prévio</h2>
+                <section class="info">
+                    <div class="dadosInfo"><span>Nome:</span><p id="nome_output"></p></div>
+                    <div class="dadosInfo"><span>Sexo:</span><p id="sexo_output"></p></div>
+                    <div class="dadosInfo"><span>Idade:</span><p id="idade_output"></p></div>
+                    <div class="dadosInfo"><span>Altura:</span><p id="altura_output"></p></div>
+                    <div class="dadosInfo"><span>Peso:</span><p id="peso_output"> Olá</p></div>
+                    <div class="dadosInfo"><span>Categoria:</span><p id="categoria_output"></p></div>
+                </section>
 
-            <section class="info">
-                <div class="dadosInfo"><span>IMC Desejável:</span><p id="imcDesejavel"></p></div>
-                <div class="dadosInfo"><span>Resultado IMC:</span><p id="resultadoIMC"></p></div>
-            </section>
+                <section class="info">
+                    <div class="dadosInfo"><span>IMC Desejável:</span><p id="imcDesejavel"></p></div>
+                    <div class="dadosInfo"><span>Resultado IMC:</span><p id="resultadoIMC"></p></div>
+                </section>
 
-            <section class="info">
-                <div class="dadosInfo"><span>Riscos:</span><p id="riscos"></p></div>
-            </section>
+                <section class="info">
+                    <div class="dadosInfo"><span>Riscos:</span><p id="riscos"></p></div>
+                </section>
 
-            <section class="info">
-                <div class="dadosInfo"><span>Recomendação Inicial:</span><p id="recomendacaoInicial"></p></div>
-            </section>
+                <section class="info">
+                    <div class="dadosInfo"><span>Recomendação Inicial:</span><p id="recomendacaoInicial"></p></div>
+                </section>
+            </div>
         </div>
 
     </main>
