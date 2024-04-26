@@ -69,10 +69,16 @@ main #formulario form button {
     cursor: pointer;
 }
 
+main #resultado{
+    display: none;
+}
+
 main #resultado #innerResultado{
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    width: 500px;
 }
 
 main #resultado #innerResultado .info {
@@ -85,6 +91,10 @@ main #resultado #innerResultado .info .dadosInfo {
     display: flex;
     gap: 8px;
     align-items: center;
+}
+
+main #resultado #innerResultado .info .dadosInfo .txtGrandes{
+    font-size: 0.8rem;
 }
 
 main #resultado #innerResultado .info .dadosInfo p {
