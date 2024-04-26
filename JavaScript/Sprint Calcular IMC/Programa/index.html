@@ -11,17 +11,17 @@
 
         <div id="formulario">
             <h2>Preencha o formulário</h2>
-            <form action="">
+            <form id="form">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome_input">
                 
                 <div id="sex">
                     <p>Sexo: </p>
                     <input type="radio" name="sexo" id="masculino_input" value="masculino">                
-                    <label for="masculino">Masculino</label>
+                    <label for="masculino_input">Masculino</label>
             
                     <input type="radio" name="sexo" id="feminino_input" value="feminino">                
-                    <label for="feminino">Feminino</label>
+                    <label for="feminino_input">Feminino</label>
                 </div>
 
                 <label for="idade">Idade</label>
@@ -33,7 +33,7 @@
                 <label for="peso">Peso</label>
                 <input type="number" name="peso" id="peso_input">
             
-                <button onclick="DarNome()">Enviar</button>
+                <button type="button" onclick="Formulario()">Entrar</button>
             </form>
         </div>
         
@@ -46,7 +46,7 @@
                     <div class="dadosInfo"><span>Sexo:</span><p id="sexo_output"></p></div>
                     <div class="dadosInfo"><span>Idade:</span><p id="idade_output"></p></div>
                     <div class="dadosInfo"><span>Altura:</span><p id="altura_output"></p></div>
-                    <div class="dadosInfo"><span>Peso:</span><p id="peso_output"> Olá</p></div>
+                    <div class="dadosInfo"><span>Peso:</span><p id="peso_output"></p></div>
                     <div class="dadosInfo"><span>Categoria:</span><p id="categoria_output"></p></div>
                 </section>
 
