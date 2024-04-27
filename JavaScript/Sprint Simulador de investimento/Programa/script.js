@@ -29,10 +29,6 @@ function Formulario(){
     let perfilInvestidorInput = document.querySelector("#perfilInvestidor")
     let perfilInvestidor = document.querySelector("#perfilInvestidorOutput")
     
-    
-
-    
-    
     let sugestaoInvestimentoOutput = document.querySelector("#sugestaoInvestimentoOutput")
         
     if(perfilInvestidorInput[0].selected || perfilInvestidorInput[2].selected) {
@@ -49,4 +45,23 @@ function Formulario(){
     }
            
     
+
+    function CalcularJuros(){
+        let jurosSimples, jurosCompostos
+
+        let tempoInvestimento = document.querySelector("#tempoInvestimento").value
+
+        let lucroSimples = document.querySelector("#lucroSimplesPossivelOutput")
+        let lucroComposto = document.querySelector("#lucroCompostoPossivelOutput")
+    
+        jurosSimples = rendaMensalInput * 0.01 * tempoInvestimento
+        jurosCompostos = (rendaMensalInput * (1 + 0.01) ** tempoInvestimento) - rendaMensalInput
+        
+        console.log(jurosSimples);
+        console.log(jurosCompostos);
+        
+        lucroSimples.textContent = `R$ ${jurosSimples.toFixed(2)} em ${tempoInvestimento} Meses`
+        lucroComposto.textContent = `R$ ${jurosCompostos.toFixed(2)} em ${tempoInvestimento} Meses`
+    }
+    CalcularJuros()
 }

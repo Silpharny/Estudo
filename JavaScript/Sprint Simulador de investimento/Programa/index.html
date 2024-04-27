@@ -28,6 +28,9 @@
 
                 <label for="rendaMensal">Renda Mensal: </label>
                 <input type="number" name="rendaMensal" id="rendaMensal">
+
+                <label for="tempoInvestimento">Tempo de investimento(meses): </label>
+                <input type="number" name="tempoInvestimento" id="tempoInvestimento">
                 
                 <label for="perfilInvestidor">Perfil Investidor: </label>
                 <select name="perfilInvestidor" id="perfilInvestidor">
@@ -55,12 +58,12 @@
             </div>
         
             <div class="info">
-                <h2>- Simulador de investimento -</h2>
+                <h2>- Simulador de investimento(estimativa) -</h2>
                 <div id="juros">
                     <p>Com juros simples</p>
-                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroPossivelOutput"></p></div>
+                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroSimplesPossivelOutput"></p></div>
                     <p>Com juros composto</p>
-                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroPossivelOutput"></p></div>
+                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroCompostoPossivelOutput"></p></div>
                 </div>
             </div>
         </div>  
