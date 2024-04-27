@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de investimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+
+        <div id="formulario">
+            <h2>Preencha o formulário</h2>
+            <form>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+                
+                <div id="sexo">
+                    <p>Sexo:</p>
+                    <input type="radio" name="sexo" id="masculino" value="Masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino" value="Feminino">
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <label for="idade">Idade: </label>
+                <input type="number" name="idade" id="idade">
+
+                <label for="rendaMensal">Renda Mensal: </label>
+                <input type="number" name="rendaMensal" id="rendaMensal">
+                
+                <label for="perfilInvestidor">Perfil Investidor: </label>
+                <select name="perfilInvestidor" id="perfilInvestidor">
+                    <option id="resposta1" value="10% conservador, 90% dinâmico">Sim, sem experiência</option>
+                    <option id="resposta2" value="35% dinâmico, 65% arrojado">Sim, com experiência</option>
+                    <option id="resposta3" value="77% dinâmico, 23% arrojado">Não, mas tenho experiência</option>
+                    <option id="resposta4" value="64% conservador, 36% dinâmico">Não, com pouca experiência</option>
+                    <option id="resposta5" value="75% ultraconservador, 25% conservador">Não, e não tenho experiência</option>
+                </select>
+
+                <button type="button" onclick="Formulario()">Enviar</button>
+            </form>
+        </div>
+
+        <div id="resultado">
+            <h1>Simulador de investimento</h1>
+
+            <div class="info">
+                <div class="dadosInfo"><span>Nome: </span><p id="nomeOutput"></p></div>
+                <div class="dadosInfo"><span>Sexo: </span><p id="sexoOutput"></p></div>
+                <div class="dadosInfo"><span>Idade: </span><p id="idadeOutput"></p></div>
+                <div class="dadosInfo"><span>Renda Mensal: </span><p id="rendaMensalOutput"></p></div>
+                <div class="dadosInfo"><span>Perfil Investidor: </span><p id="perfilInvestidorOutput"></p></div>
+                <div class="dadosInfo"><span>Sugestão de investimento: </span><p id="sugestaoInvestimentoOutput"></p></div>
+            </div>
+        
+            <div class="info">
+                <h2>- Simulador de investimento -</h2>
+                <div id="juros">
+                    <p>Com juros simples</p>
+                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroPossivelOutput"></p></div>
+                    <p>Com juros composto</p>
+                    <div class="dadosInfo"><span>Lucro Possível: </span><p id="lucroPossivelOutput"></p></div>
+                </div>
+            </div>
+        </div>  
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
