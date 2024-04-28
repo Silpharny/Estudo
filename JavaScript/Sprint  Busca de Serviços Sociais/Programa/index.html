@@ -11,7 +11,7 @@
         <div id="sec1">
             <h1>Adicionar Serviço</h1>
             <form>
-                <label for="name">Nome:</label>
+                <label for="name">Nome serviço social:</label>
                 <input type="text" name="name" id="name">
                 <label for="region">Região:</label>
                 <input type="text" name="region" id="region">
@@ -21,6 +21,23 @@
                 <input type="text" name="contact" id="contact">
                 <button type="button" onclick="Services()">enviar</button>
             </form>
+        </div>
+
+        <div id="sec2">
+            <h1>Pesquisar serviço</h1>
+            <form>
+                <label for="regionSearch">Região:</label>
+                <input type="text" name="regionSearch" id="regionSearch">
+                <label for="typeSearch">Tipo:</label>
+                <input type="text" name="typeSearch" id="typeSearch">
+                <button type="button" onclick="SearchServices()">enviar</button>
+            </form>
+            <div id="resposta">
+                <p id="nameService"></p>         
+                <p id="regionService"></p>         
+                <p id="typeService"></p>         
+                <p id="contactService"></p>         
+            </div>
         </div>
     </main>
 </body>

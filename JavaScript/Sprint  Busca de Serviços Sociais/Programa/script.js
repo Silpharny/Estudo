@@ -22,7 +22,7 @@ const services = [
 
 function Services() {
 
-    function searchServices(region, type) {  
+    function SearchServices(region, type) {  
         const results = services.filter(service => {    
             return service.region === region && service.type === type;
         });  
@@ -49,10 +49,12 @@ function Services() {
         let newService = {name: addName, region: addRegion, type: addType, contact: addContact}
     
         services.push(newService)
-    
-        return newService
+
     }
-    searchServices()
-    AddServices()
+    SearchServices("Zona Sul", "Apoio ao Idoso")
 }
 
+
+
+
+console.log(Services());
