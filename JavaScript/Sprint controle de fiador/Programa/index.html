@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de comercio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <form>
+            <input type="text" name="nome" id="nome">
+            <input type="number" name="valor" id="valor">
+            <button type="button" onclick="addPesoa()">Adicionar Pessoa</button>
+            <button type="button" onclick="AdicionarDivida()">Dívida</button>
+            <button type="button" onclick="RegistrarPagamento()">Pagamento</button>
+        </form>
+        <p id="listaPessoas"></p>
+        <p id="listaDivida"></p>
+        <p id="listaPagamento"></p>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
