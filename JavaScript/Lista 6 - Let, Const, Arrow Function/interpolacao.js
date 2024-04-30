@@ -13,3 +13,4 @@ console.log("Olá, meu nome é " + usuario.nome + ", tenho " + usuario.idade + "
 
 console.log(`Olá, meu nome é ${usuario.nome}, tenho ${usuario.idade} anos, moro em ${usuario.cidade} que fica no estado do ${usuario.estado}`);
 
+ 

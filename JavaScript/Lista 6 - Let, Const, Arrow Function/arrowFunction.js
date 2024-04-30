@@ -14,7 +14,7 @@ const DizerOlaMundoNovamente = () => "Olá mundo novamente!" // Retorno de uma l
 
 const DizerOlaMundoEmIngles = () => {
     return "Hello World!"
-}
+} 
 
 // -------------------------------- -------------------------------- --------------------------------
 

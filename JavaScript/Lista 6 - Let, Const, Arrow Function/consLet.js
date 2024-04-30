@@ -16,7 +16,7 @@ console.log(idade); // Const é indicado para valores que não mudam como: CPF, 
 
     console.log(globalConst);
     console.log(globalLet);
-
+ 
 
     // Local - Dentro de uma função
     function Mostrar() {
