@@ -1,22 +1,24 @@
-let num = Math.floor(Math.random() * 100)
+let limite = Math.floor(Math.random() * 50)
 
 
-const primoOuNao = (num) => {
+const primoOuNao = (limite) => {
     
-        
-        
-    
+    for(numero = 2; numero <= limite; numero++) {
+        let ehPrimo = true
+
+        for(divisor = 2; divisor < numero; divisor++) {
+            if(numero % divisor === 0) {
+                ehPrimo = false
+                    break
+            }
+        }
+        if(ehPrimo) {
+            console.log(`${numero} é primo`);
+        } else {
+            console.log(`${numero} não é primo`);
+        }
+    }
+
 }
 
-console.log(primoOuNao(num));
-
-/*
-    PARA SER PRIMO PRECISA TER APENAS 2 DIVISORES (ele mesmo e 1):
-
-    O número dividido por 1 tem que restar 0
-    O número dividido por ele mesmo tem que restar 0
-    O número dividido por ele mesmo tem que restar 0
-    
-    Todo número par dividido por 2 não é primo
-
-*/
+primoOuNao(limite)
