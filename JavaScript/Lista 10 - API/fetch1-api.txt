@@ -1,0 +1,39 @@
+Fetch I - API 
+
+Hoje em dia "só" precisamos cuidar da parte de entrega do cliente(frontend). Toda parte de backand e bancos de dados são conectados via api e não precisamos fazer o trabalho do zero
+
+API = Backand + DataBase
+
+Fluxo de API
+
+Funciona com Request e Response
+
+O lado do cliente faz uma requisição(request) para a API e se no banco de dados dessa API encontrar a informação, ela retornará os dados para o cliente(response) 
+
+REST - Comunicação HTTP utilizando verbos de chamada (GET, POST, PUT ...)
+
+RESTFul - Capacidade de trabalhar com Rest
+
+Estrutura geral
+
+Endpoint HTTP - Url de chamada da API
+Verbos/Métodos - Ação desejada
+Cabeçalhos - Informações como tipos de arquivos e autenticação
+Corpo - Dado enviados ou retornados, geralmente em JSON ou XML
+
+Endpoint        Métodos         Ação
+/users          GET             Retornar lista de usuários
+/users          POST            Insere um novo usuário
+/users/{id}     GET             Retorna o usuário com id = {id}
+/users/{id}     PUT             Substitui os dados do usuário com id = {id}
+/users/{id}     PATCH           Altera itens dos dados do usuário com id = {id}
+/users/{id}     DELETE          Remove o usuário com id = {id}
+
+
+HTTP Status
+
+1xx - Informacional
+2xx - Sucess
+3xx - Redirection
+4xx - Client Error
+5xx - Server Error
