@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #ededed;
+    padding: 30px;
+    align-items: start;
+}
+
