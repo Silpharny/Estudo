@@ -1,0 +1,9 @@
+Branches
+
+1) Principal (main) - A ramificação mais importante de uma aplicação, é nela que subimos nossas atualizações finais e está a aplicação em produção.
+
+2) Develop - A ramificação usada para desenvolvimento de uma aplicação
+
+3) Features - Essa é uma ramificação de funcionalidades, geralmente usada por desenvolvedores específicos que ficarão repsonsável por desenvolver a funcionalidade específica
+
+4) Hotflix - É uma ramificação de emergência. É utilizada para fazer correções de bugs em uma aplicação que já está em produção. Quando uma aplicação está em produção, não podemos simplesmente tirar ela do ar para corrigir um bug, para isso criamos uma ramificação específica para resolver aquele bug

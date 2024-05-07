@@ -1,0 +1,5 @@
+Merges e Conflitos
+
+Posso fazer um pull, dentro do Visual Studio, ou seja, busque o projeto que está na nuvem do Github. Caso eu faça isso enquanto outra pessoa esteja modificando o código e ao final eu faça outro git pull, com certeza vai dar um conflito.
+
+Caso o conflito ocorra, posso aceitar a modificação anterior(feita por alguém diretamente na nuvem), deixar no meu código apenas a minha modificação, ou posso deixar as duas soluções.

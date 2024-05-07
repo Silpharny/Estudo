@@ -1,0 +1,4 @@
+Pull Requests
+
+Pegaremos todas as "brenchs auxiliares", ou seja, todas aquelas que não são a main(em produção) e faremos a analise e decidimos se vamos colocar aquelas outras brenchs em produção ou não.
+
