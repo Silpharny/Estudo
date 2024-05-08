@@ -97,6 +97,7 @@ button {
     margin-top: 30px;
 
     text-transform: uppercase;
+    cursor: pointer;
 }
 section .master .side #btnStart {
     background-color: var(--blue);
