@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --orange: #F2890D;
+    --blue: #1180E6;
+
+    --font: monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--orange);
+
+}
+
+section {
+    width: 1084px;
+    height: 645px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+}
+
+section h1 {
+    width: 258px;
+    height: 100px;
+
+    position: relative;
+    bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3rem;
+
+    background-color: var(--blue);
+}
+
+
+section .master {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section .master .side {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section .master .side img {
+    width: 150px;
+    align-self: center;
+}
+
+label, button {
+    font-family: var(--font);
+    font-weight: bold;
+    
+}
+
+section .master .side label {
+    font-size: 1.2rem;
+}
+
+section .master .side input, section .master .side #interval {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    width: 350px;
+    height: 42px;
+
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    text-transform: uppercase;
+}
+section .master .side #btnStart {
+    background-color: var(--blue);
+}
+section .master .side #btnPlay {
+    background-color: var(--orange);
+
+}
+
+span {
+    font-weight: bold;
+}
+
+#welcomeTxt {
+    text-align: center;
+    font-size: 1.2rem;
+}

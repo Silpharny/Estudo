@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint final</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <section>
+        <h1>O jogo</h1>
+        <div class="master">
+            <div class="side">
+                <img src="assets/87d1eb3e0a764441d5871496aed5bb63.png" alt="profile">
+                <label for="nick">Nick:</label>
+                <input type="text" name="nick" id="nick">
+                <label for="interval">Intervalo:</label>
+                <select name="interval" id="interval">
+                    <option value="opt1">Opção 1: 1 a 10</option>
+                    <option value="opt2">Opção 2: 1 a 100</option>
+                    <option value="opt3">Opção 3: 1 a 200</option>
+                </select>
+                <button id="btnStart">Começar</button>
+            </div>
+            <div class="side">
+                <p id="welcome"></p>
+                <label for="nuber">Digite um número:</label>
+                <input type="number" name="number" id="number">
+                <button id="btnPlay">Jogar</button>
+                <p id="attempt"></p>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
