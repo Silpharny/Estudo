@@ -1,0 +1,29 @@
+Programação orientada a objeto
+
+Conceito Geral
+
+Pegar um objeto do mundo real e levar de forma mais abstratada para o código
+
+Real -> Virtual 
+
+Cada objeto tem suas características específica, quando usamos o exemplo de um carro: Existem vários tipos, modelos e características de carros. Um carro pode ser azul, da marca Ford, ser uma caminhonete etc.
+
+Vantagens da POO
+
+    - Todo código orientado a objeto é confiável (Ao alterar uma parte, nenhuma outra é alterada)
+    
+    - O software orientado a objeto pode ser desenvolvido cada parte de forma individual sem ter essa interdependencia, não precisamos seguir uma ordem estrutural, partes distintas podem ser criadas de forma independente e paralela.
+
+    - Fácil de dar manuntenção, fazer atualizações e correções de bugs fica muito mais simples quando estamos trabalhando com POO
+
+    - É extensivel, não tem limitação de crescimento
+
+    - Posso pegar um objeto de um app e reutilizar em outros aplicativos
+
+    - É fácil de entender e acaba sendo usual. Não precisamos nos preocupar com os detalhes de implementação, apenas em sua funcionalidade
+
+Desvantagens da POO
+    
+    - Tempo de execução, é mais lenta do que a Programação estruturada, porém hoje em dia com os recursos de hardwares que temos, isso acaba não fazendo tanta diferença
+
+    

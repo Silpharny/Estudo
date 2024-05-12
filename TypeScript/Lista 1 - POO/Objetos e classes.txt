@@ -1,0 +1,48 @@
+Definição de Classe
+
+Uma classe é a estrutura de código, com:
+
+    - Atributos (características)
+    - Métodos (ações)
+
+
+Definição de Objeto
+
+Um objeto em POO, é uma instância (ou seja, um exemplar) de uma classe
+
+
+Classe = Algo abstrato
+
+Objeto = Algo concreto
+
+
+exemplo
+
+Quando eu falo a palavra 'chocolate', isso é algo abstrato(classe) ou seja, essa palavra pode ter diversas formas. Com isso transformamos ela em algo mais concreto(objeto), trazendo todos os uso dessa palavra como, Barra de chocolate, mousse de chocolate, bolo de chocolate, achocolatado, ovo de chocolate
+
+Outro exemplo para ficar mais claro
+
+Vamos supor que eu pegue a palavra 'Lâmpada', a principio ela é uma classe e nela podemos ter varias características e ações, como por exemplo:
+
+Características:
+    - Cor
+    - Potência 
+    - Tamanho
+    - Forma
+
+
+Ações:
+    - Ficar acesa
+    - Ficar apagada
+    - Queimar
+
+
+A lâmpada é uma classe, porém podemos atribuir ela a um objeto, neste caso, a lâmpada pode ser usada de diversas formas e em diversos lugares. Criamos uma classe padrão para a lâmpada contendo suas características e ações. Agora podemos atribuir essa lâmpada a locais específicos, exemplo
+
+Objeto
+    - Luminárias
+    - Dentro de ambientes
+    - Carro 
+    - Estações
+    - Locais de alerta
+
