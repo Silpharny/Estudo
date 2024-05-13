@@ -1,0 +1,17 @@
+Os pilares da POO
+
+1. Abstração
+
+Capacidade de criar objetos abstratos que sirvam como base para um objeto concreto
+
+2. Herança
+
+É a capacidade de herdar métodos e atributos de classes superiores
+
+3. Encapsulamento 
+
+É a capacidade de esconder tudo que não desejamos que o usuário da classe filha tenha acesso
+
+4. Polimorfismo
+
+É a capacidade de mudar o comportamento de um método filho que tenha o mesmo nome do método pai

@@ -1,0 +1,22 @@
+1. Quais as vantagens da utilização da programação orientada a objetos?
+
+    Simplificar a construção e manuntenção e reutilização de códigos de um software, atribuindo também responsabilidades individuais e independentes para cada parte do código, podendo trabalhar em multiplos arquivos ao mesmo tempo sem que haja conflito entre eles. 
+
+2. Defina o que é uma classe:
+
+    A classe é um "contrato", ela define tudo que um objeto terá/pode ter.
+
+3. Defina o que é um objeto:
+
+    O objeto seria um exemplar, uma instância de uma classe
+
+4. “Um funcionário enviou para o RH seus dados pessoais (Nome Completo, CPF, Email) para ser contratado”. Identifique o que é classe e o que é o objeto na frase anterior:
+
+    Classe é o funcionário e o objeto é o funcionário e seus dados, funcionário(Nome compleeto, CPF, Email)
+
+5. Liste e descreva cada pilar da POO:
+
+    Pilar 1: Abstração      -> Definir a identidade, característica e métodos do objeto que será criado. 
+    Pilar 2: Herança        -> Reutilização de código por meio de classes filhas herdando propriedades/métodos de uma classe pai.
+    Pilar 3: Encapsulamento -> Esconder propriedades que não precisam ser acessadas por outras classes.
+    Pilar 4: Polimorfismo   -> Permitir que métodos mudem de forma conforme sua necessidade, mudando as implementações de métodos.

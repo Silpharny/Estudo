@@ -1,0 +1,58 @@
+TypeScript
+
+TypeScript é um derivado do JavaScript criado pela Microsoft, trouxe recursos que o próprio JavaScript não tinha, como recursos de orientação a objeto
+
+JavaScript x TypeScript
+
+JS
+    - Interpretada diretamente pelo navegador
+
+TS
+
+    - Compilada, ou seja, ela precisa ser convertida para JavaScript para ser interpretada pelo navegador (como se eu estivesse traduzindo o TypeScript para JavaScript para que ele seja interpretado pelo navegador)
+    
+    - Tipagem forte, podemos impor qual o tipo de uma variável para que evite erros no futuro em atribuir tipos diferentes a uma variável específica
+
+    - Orientação a objeto
+
+
+====================================================================================================================================
+    
+Compilador passo a passo
+
+    1. Criar uma pasta
+
+    2. Abrir o terminal e ir até a pasta do arquivo
+
+    3. Introduzir a linha de código: 
+        
+        npm install -D typescript 
+
+        Obs: Esse comando é para criar as dependências node dentro da pasta. Esse "-D" é para avisar que quero abrir um doc apenas na pasta criada
+
+    4. Vai criar uma pasta node_modules com alguns arquivos dentre eles:
+
+        package.json -> É um arquivo onde estarão todas as dependências 
+
+    5. Depois de ter instalado as dependências node, temos que instalar os arquivos TypeScript usando o seguinte código:
+
+        npx tsc --init
+
+    6. Pronto! Agora posso utilizar o typescript com a extensão(.ts). É bom ressaltar que todas as classes são escritas em letra maiuscula 
+
+    7. Para compilar um arquivo é só ir ao terminal e digitar o seguinte código:
+
+        npx tsc
+
+    8. Irá criar um arquivo JS, ou seja, convertido para a linguagem que o navegador entende
+
+    9. Para não precisar tendo que digitar toda hora o comando acima, eu posso usar o seguinte comando:
+
+        npx tsc --watch
+
+    10. A partir de agora toda alteração que eu fizer no arquivo typescript, será atualizado automaticamente no arquivo JavaScript
+
+
+Tipos Básicos
+
+    
