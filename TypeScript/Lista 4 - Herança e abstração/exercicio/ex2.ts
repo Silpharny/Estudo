@@ -1,33 +1,7 @@
 class Carro 
 {
-    constructor(private cor:string, private marca:string, private placa:string)
-    {}
-
-    public get _cor() {
-        return this.cor;
-    }
-
-    public set _cor(__cor: string)
-    {
-        this.cor = __cor;
-    }
-
-    public get _marca() {
-        return this.marca;
-    }
-
-    public set _marca(__marca: string)
-    {
-        this.marca = __marca;
-    }
-
-    public get _placa() {
-        return this.placa;
-    }
-
-    public set _placa(__placa: string)
-    {
-        this.placa = __placa;
+    constructor( _cor:string, _marca:string, _placa:string) {
+        
     }
 }
 
@@ -42,7 +16,7 @@ const inserirCarros = () => {
 
 const listarPlacas = () => {
     carros.forEach((e, i) => {
-        console.log(`Placa do carro ${i + 1}: ${e._placa}`);
+        console.log(`Placa do carro ${i + 1}: ${e.}`);
     });
 }
  
