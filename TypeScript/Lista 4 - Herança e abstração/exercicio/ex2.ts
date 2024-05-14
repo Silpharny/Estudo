@@ -1,8 +1,5 @@
-class Carro 
-{
-    constructor( _cor:string, _marca:string, _placa:string) {
-        
-    }
+class Carro {
+    constructor( _cor:string, _marca:string, _placa:string) {}
 }
 
 let carros:Array<Carro> = []
@@ -14,6 +11,8 @@ const inserirCarros = () => {
     carros[2] = new Carro("Branco", "Ford", "UTF9723");
 }
 
+/*
+
 const listarPlacas = () => {
     carros.forEach((e, i) => {
         console.log(`Placa do carro ${i + 1}: ${e.}`);
@@ -24,3 +23,5 @@ const modificarCor = (index:number, novaCor:string) =>
 {
     carros[index]._cor = novaCor;
 }
+
+*/

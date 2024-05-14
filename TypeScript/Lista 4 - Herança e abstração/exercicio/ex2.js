@@ -1,28 +1,6 @@
 "use strict";
 class Carro {
-    constructor(cor, marca, placa) {
-        this.cor = cor;
-        this.marca = marca;
-        this.placa = placa;
-    }
-    get _cor() {
-        return this.cor;
-    }
-    set _cor(__cor) {
-        this.cor = __cor;
-    }
-    get _marca() {
-        return this.marca;
-    }
-    set _marca(__marca) {
-        this.marca = __marca;
-    }
-    get _placa() {
-        return this.placa;
-    }
-    set _placa(__placa) {
-        this.placa = __placa;
-    }
+    constructor(_cor, _marca, _placa) { }
 }
 let carros = [];
 const inserirCarros = () => {
@@ -32,7 +10,7 @@ const inserirCarros = () => {
 };
 const listarPlacas = () => {
     carros.forEach((e, i) => {
-        console.log(`Placa do carro ${i + 1}: ${e._placa}`);
+        console.log(`Placa do carro ${i + 1}: ${e.}`);
     });
 };
 const modificarCor = (index, novaCor) => {

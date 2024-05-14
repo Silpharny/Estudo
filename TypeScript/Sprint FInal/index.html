@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sync Tour</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>SyncTur</h1>
+        </header>
+        <main>
+            <div class="section-01">
+                <h3>Cadastrar Pacotes</h3>
+                <div class="form">
+                    <div class="left-side">
+                        <h4>Pacote</h4>
+                        <input type="text" name="name" id="name" placeholder="Digite nome completo">
+
+                        <div class="inner-left-divisor">
+                            <div class="status-out">
+                                <h4>Status do Pacote</h4>
+                                <div class="status">
+                                    <div>
+                                        <input type="checkbox" name="status" id="ativo">
+                                        <label for="ativo">Ativo</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="status" id="inativo">
+                                        <label for="inativo">Inativo</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="data-viagem">
+                                <h4>Data da Viagem</h4>
+                                <input type="datetime" name="date" id="date" placeholder="Data">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="right-side">
+                        <h4>Descrição</h4>
+                        <textarea name="descricao" id="descricao" placeholder="Descrição do pacote"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-cadastrar" id="btn-cadastrar">Cadastrar</button>
+            </div>
+
+            <div class="section-02">
+                <h2>Pacote X</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illum, eligendi, ratione vero, asperiores dolore tempora ad quod recusandae id minus molestias praesentium placeat ex pariatur perferendis beatae laudantium dolorum cumque aliquid! Fuga delectus corrupti consectetur distinctio perspiciatis nemo, minima rem temporibus, accusamus esse vero, nobis illo velit id iure!</p>
+                <h4>Data da viagem: <span>17/03/2024</span></h4>
+                <div class="btns">
+                    <button class="btn btn-editar" id="btn-editar">Editar</button>
+                    <button class="btn btn-excluir" id="btn-excluir">Excluir</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="divisor-01">
+                <h1>SyncTur</h1>
+            </div>
+            <div class="divisor-02">
+                <p>Company Inc., 8901 Marmora Road, Glasgow, D04 89GR</p>
+                <p>Call us now toll free: (800)2345-6789</p>
+                <p>Customer support: support@demolink.org</p>
+                <p>Skype: sample-username</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
