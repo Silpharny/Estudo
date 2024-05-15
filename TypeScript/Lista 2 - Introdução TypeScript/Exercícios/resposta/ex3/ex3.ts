@@ -2,15 +2,14 @@
 
 const VerificacaoIdade = (idade: number) => {
 
-    let maior: boolean = true
+    let maiorIdade: boolean = true
     
-    if (idade > 20) {
-     console.log(maior)
+    if (idade >= 20) {
+     console.log(maiorIdade)
     } else {
-        console.log(maior = false)
-        
+        console.log(maiorIdade = false)
     }
     
 }
 
-VerificacaoIdade(25)
+VerificacaoIdade(22)
