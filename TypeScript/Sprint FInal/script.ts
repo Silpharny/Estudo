@@ -1,3 +1,8 @@
+const nameInput: any = document.querySelector("#name")
+const statusInput: any = document.querySelector(".status")
+const dateInput: any = document.querySelector("#date")
+const button = document.querySelector("#btn-cadastrar")
+
 class Package {
     packageName:string
     packageDescription:string
@@ -10,46 +15,8 @@ class Package {
     }
 
 }
-let packageList: Package[] = []
-
-let cadastrar = document.getElementById("btn-cadastrar")
-
-let sec = document.querySelector(".section-02")
 
 
 
-const create = () => {
-    let name: any = document.querySelector("#name")
-    name = name.value
-    
-    let description: any = document.querySelector("#descricao")
-    description = description.value
-
-    let date: any = document.querySelector("#date")
-    date = date.value
-    
-    let newPackage = new Package(name, description, date)
-
-    packageList.push(newPackage)
-
-    console.log(packageList);
-
-    let div = document.createElement('div')
-    div.textContent += `${name} - ${description} - ${date}`
-    sec?.appendChild(div)
-
-}
-
-cadastrar?.addEventListener('click', create)
-
-const read = () => {
-
-}
-
-const update = () => {
-
-}
-
-const deleteOf = () => {
-
-}
+button?.addEventListener("click", () => {console.log(statusInput);
+})
