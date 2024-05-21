@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Landing Page</title>
 </head>
-<body class="w-screen h-screen">
+<body class="h-screen">
     <header class="h-20 w-full flex items-center shadow-sm justify-around">
         <h1 class="text-green-600 cursor-default text-2xl font-semibold font-Roboto">Health & Fitness</h1>
         <!-- <i class="fa-solid fa-bars self-center fa-2xl"></i> -->
@@ -19,113 +19,239 @@
             </ul>
         </nav>
     </header>
-
-    <main class="flex flex-col gap-20">
-        <section class="w-full h-screen flex flex-col justify-center items-center text-center bg-homeImg bg-cover bg-bottom bg-no-repeat " id="home">
+    
+    <main class="flex flex-col gap-10">
+        
+        <section class="h-screen flex flex-col justify-center items-center text-center bg-homeImg bg-cover bg-bottom bg-no-repeat " id="home">
             <h2 class="text-5xl font-bold text-white">The best health and fitness tips</h2>
             <p class="text-2xl mb-5 font-semibold">Join our team of members</p>
             <button class="w-36 p-2 rounded shadow font-semibold text-white bg-green-500 hover:bg-green-400">click here</button>
         </section>
 
-        <section class="h-screen flex flex-col justify-center align-middle items-center" id="fitness">
+        <section class="h-full flex flex-col justify-center align-middle items-center" id="fitness">
             <h2 class="text-3xl font-bold text-green-700">Fitness</h2>
             <p class="text-xl font-light mb-5">The best training tips...</p>
-            <div class="h-full grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-8" id="fitness-articles">
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness1.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+            <div class="h-full grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-8 rounded" id="fitness-articles">
+                
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness1.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness2.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness2.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness3.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness3.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness4.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness4.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness5.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness5.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/fitness6.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/fitness6.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
         </section>
 
-        <section class="h-screen flex flex-col justify-center align-middle items-center" id="food">
+        <section class="h-full flex flex-col justify-center align-middle items-center" id="food">
             <h2 class="text-3xl font-bold text-green-700">Food</h2>
             <p class="text-xl font-light mb-5">The best food tips</p>
-            <div class="h-full grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-8" id="fitness-articles">
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food1.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+            <div class="h-full grid grid-cols-1 md:grid-cols-3 gap-y-8 gap-x-8 rounded" id="food-articles">
+                
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food1.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food2.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food2.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food3.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food3.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food4.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food4.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food5.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food5.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="w-56 h-72 shadow bg-gray-100">
-                    <img src="assets/food6.jpg" alt="">
-                    <div>
-                        <h3></h3>
-                        <p></p>
+
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="assets/food6.jpg" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">test</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, tempore?</p>
+                        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+                            Read more
+                            <i class="fa-solid fa-arrow-right ml-2" style="color: #ffffff;"></i>
+                        </a>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
-    <footer></footer>
+
+    <footer class="h-40 bg-gray-100 flex items-center justify-evenly mt-24">
+        <div>
+            <h2 class="text-green-600 cursor-default text-xl font-semibold font-Roboto">Health & Fitness</h2>
+            <p class="text-xs">Copyright © 2024 Sil Miranda. All rights reserved</p>
+        </div>
+        <div>
+            <h2 class="font-bold mb-3">Navigation</h2>
+            <ul class="flex flex-col gap-1">
+                <a href="#home"><li class="cursor-pointer hover:font-bold">Home</li></a>
+                <a href="#fitness"><li class="cursor-pointer hover:font-bold">Fitness</li></a>
+                <a href="#food"><li class="cursor-pointer hover:font-bold">Food</li></a>
+            </ul>
+        </div>
+        <div>
+            <a href="#"><i class="fa-solid fa-circle-arrow-up fa-2xl"></i></a>
+        </div>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
