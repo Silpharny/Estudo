@@ -1,0 +1,15 @@
+@import '../../index.css';
+
+.page_home {
+    height: 100vh;
+}
+
+.page_home main {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.page_home main img {
+    width: 100%;
+}

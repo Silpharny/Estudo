@@ -1,0 +1,23 @@
+.footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background: #5B3331;
+}
+
+.footer .iconSocial {
+    display: flex;
+    gap: 30px;
+}
+
+.footer .iconSocial i {
+    color: white;
+    font-size: 2.4em;
+    cursor: pointer;
+}
+
+.footer .iconSocial i:hover {
+    color: rgba(255, 255, 255, .8);
+}
