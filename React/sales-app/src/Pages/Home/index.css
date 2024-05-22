@@ -1,0 +1,23 @@
+@import '../../index.css';
+
+.pg_Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--purple);
+    color: white;
+    font-size: 1.2em;
+}
+
+.pg_Home img {
+    width: 200px;
+}
+
+.pg_Home .btn {
+    background: var(--gray);
+    padding: 15px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
