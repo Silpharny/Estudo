@@ -1,6 +1,32 @@
 @import '../../index.css';
 
 .page_sobre {
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.page_sobre main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_sobre main h2 {
+    margin: 2rem 0;
+}
+
+.page_sobre main .section {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page_sobre main .section p {
+    width: 40%;
+}
+
+.page_sobre main .sec2 p  {
+    width: 50%;
 }

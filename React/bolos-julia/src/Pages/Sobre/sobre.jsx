@@ -1,17 +1,50 @@
 import React from "react";
-import './sobre.css'
-import { Link } from 'react-router-dom'
+import "./sobre.css";
+import Header from "../../Components/Header/header.jsx";
+import Footer from "../../Components/Footer/footer.jsx";
 
+import bannerPageSobre from '../../Assets/bannerPageSobre.webp'
+import clubeAssinatura from '../../Assets/clubeAssinatura.webp'
 
 export const Sobre = () => {
+  return (
+    <div className="page_sobre">
+      <Header />
 
-    return(
-        <div className="page_sobre">
-            <h1>pagina sobre</h1>
-            <Link to="/">Página inicial</Link>
-            <Link to="/bolos">Página bolos</Link>
-        </div>
-    )
-}
+      <main>
+        <h2>Bolos Júlia</h2>
+        <section className="section">
+          <img src={bannerPageSobre} alt="Pessoa coando cacau" />
+          <p>
+            ed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatu corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+            consequatur? Quis autem vel eum iure reprehenderit qui in ea
+            voluptate velit esse quam nihil molestiae consequatur, vel illum qui
+            dolorem eum fugiat quo voluptas nulla pariatr
+          </p>
+        </section>
+            <h2>Clube Assinatura</h2>
+        <section className="section sec2">
+            <img src={clubeAssinatura} alt="Caixa de doce" />
+            <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu</p>
+        </section>
+      </main>
 
-export default Sobre
+      <Footer />
+    </div>
+  );
+};
+
+export default Sobre;

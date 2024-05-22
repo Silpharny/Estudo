@@ -1,0 +1,47 @@
+.listaPreco {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.listaPreco .information {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.listaPreco .information p {
+    font-size: 1.3em;
+}
+
+.listaPreco .information .cifrao {
+    font-size: 1.0em;
+    color: #F87700;
+    font-weight: bolder;
+}
+
+.listaPreco .information .cifrao span {
+    font-size: 2em;
+}
+
+.listaPreco .buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.listaPreco .buttons button {
+    width: 128px;
+    height: 42px;
+    border: none;
+    border-radius: 25px;
+    font-weight:800;
+}
+
+.listaPreco .buttons .btnEdit {
+    background: #AED9E0;
+} 
+
+.listaPreco .buttons .btnExcluir {
+    background: #F87700;
+    color: white;
+} 

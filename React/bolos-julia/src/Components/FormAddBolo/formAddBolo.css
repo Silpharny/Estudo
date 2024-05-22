@@ -1,0 +1,36 @@
+
+.inputSection {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.inputSection .inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+.inputSection input {
+    width: 300px;
+    height: 42px;
+    border: 1px solid #660027;
+    border-radius: 10px;
+}
+
+.inputSection button {
+    width: 128px;
+    height: 42px;
+    align-self: flex-end;
+
+    background: #660027;
+    border: 2px solid #660027;
+    border-radius: 25px;
+    
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+}
