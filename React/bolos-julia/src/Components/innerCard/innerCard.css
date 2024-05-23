@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.box p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}

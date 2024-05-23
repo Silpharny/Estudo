@@ -2,6 +2,7 @@ import React from "react";
 import './home.css'
 
 import bannerPrincipal from '../../Assets/bannerPrincipal.webp'
+
 import Header from '../../Components/Header/header.jsx';
 import Card from "../../Components/Card/card.jsx";
 import CardAproveite from "../../Components/CardAproveite/cardAproveite.jsx";
