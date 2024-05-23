@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.profilePage {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePage .container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.profilePage .container .button {
+    margin-top: 3rem;
+}
+
+#perfil {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}

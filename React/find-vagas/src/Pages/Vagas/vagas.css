@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.vagasPage {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagasPage .container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.container .button {
+    margin-top: 3rem;
+}
+
+#vagas {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}

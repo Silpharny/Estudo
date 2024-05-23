@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.cadastrarPage {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastrarPage .container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.cadastrarPage .container .button {
+    margin-top: 3rem;
+}
+
+#cadastrar {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
