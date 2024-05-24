@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+:root {
+  --blue: #6011F5;
+  --light-orange: #F6511D;
+  --light-green: #05F5B5;
+  --light-yellow: #F5EB36;
+  --orange: #F53D05;
+
+  --h1-size: 24px;
+  --text-size: 20px;
+}

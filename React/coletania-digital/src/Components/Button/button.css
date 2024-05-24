@@ -1,0 +1,10 @@
+@import url('../../index.css');
+
+.button {
+    width: 215.28px;
+    height: 40px;
+    background-color: var(--light-green);
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
