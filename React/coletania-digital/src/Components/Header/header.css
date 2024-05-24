@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10rem;
 }
 
 .header .container {
@@ -17,9 +18,7 @@
     height: 103px;
 
     border: 1px solid;
-    border-image: linear-gradient(to right, white, transparent) 1;
-    box-sizing: border-box;
-    border-radius: 2rem;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
 
     background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
     backdrop-filter: blur(12.5px);
@@ -37,4 +36,20 @@
 .header .container .logo .textLogo {
     font-size: 1.2rem;
     color: white;
+    cursor: default;
+}
+
+.header .container nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.header .container nav li {
+    padding: .5rem;
+}
+
+.header .container nav li:hover {
+    border: 1px solid;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
+    background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
 }

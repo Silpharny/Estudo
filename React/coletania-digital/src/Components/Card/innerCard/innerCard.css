@@ -1,0 +1,19 @@
+
+.innerCard {
+    width: 300px;
+    height: 264px;
+
+    border: 1px solid;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
+
+    background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
+    backdrop-filter: blur(12.5px);
+}
+
+.innerCard img {
+    width: 7rem;
+
+    position: relative;
+    bottom: 4rem;
+    left: 6rem;
+}

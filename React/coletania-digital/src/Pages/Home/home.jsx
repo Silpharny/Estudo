@@ -2,12 +2,16 @@ import React from "react";
 import './home.css'
 
 import Header from "../../Components/Header/header";
+import Card from "../../Components/Card/card";
 
 export const Home = () => {
 
     return(
         <div className="home">
-            <Header/>
+            <Header className="headerHome" />
+            <div className="main">
+                <Card/>
+            </div>
         </div>
     )
 }

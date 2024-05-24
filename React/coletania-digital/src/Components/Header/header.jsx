@@ -4,7 +4,7 @@ import Logo from '../../Assets/logoIcon.png'
 
 import { Link } from 'react-router-dom'
 
-export const Header = () => {
+export const Header = (props) => {
     return(
         <div className="header">
             <div className="container">
@@ -16,10 +16,10 @@ export const Header = () => {
                     </div>
                 </div>
                 <nav>
-                    <Link to="/">Home</Link>
-                    <Link to="/usuario">Usuário</Link>
-                    <Link to="/filmes">Filmes</Link>
-                    <Link to="/genero">Gênero</Link>
+                    <li><Link className={props.className} to="/">Home</Link></li>
+                    <li><Link to="/usuario">Usuário</Link></li>
+                    <li><Link to="/filmes">Filmes</Link></li>
+                    <li><Link to="/genero">Gênero</Link></li>
                 </nav>
             </div>
         </div>
