@@ -21,6 +21,7 @@ export const Genero = () => {
                 <CadastroComIcon pageName="Gêneros" linkImg={categoryIcon} label="Gênero" placeholder="Digite o Gênero" />
                 <OutputArea />
             </div>
+            
             <Footer />
         </div>
     )
