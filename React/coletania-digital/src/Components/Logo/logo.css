@@ -1,0 +1,15 @@
+
+.logo {
+    display: flex;
+    gap: .6rem;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+.logo .textLogo {
+    font-size: 1.2rem;
+    color: white;
+    cursor: default;
+}

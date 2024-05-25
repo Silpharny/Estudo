@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-top: .6rem;
     padding: 0 2rem;
 
     width: 1200px;
@@ -22,21 +22,6 @@
 
     background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
     backdrop-filter: blur(12.5px);
-}
-
-.header .container .logo {
-    display: flex;
-    gap: .6rem;
-}
-
-.header .container .logo img {
-    width: 3rem;
-}
-
-.header .container .logo .textLogo {
-    font-size: 1.2rem;
-    color: white;
-    cursor: default;
 }
 
 .header .container nav {

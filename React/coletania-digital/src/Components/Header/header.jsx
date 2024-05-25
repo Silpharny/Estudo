@@ -1,25 +1,19 @@
 import React from "react";
 import './header.css'
-import Logo from '../../Assets/logoIcon.png'
 
 import { Link } from 'react-router-dom'
+import Logo from "../Logo/logo";
 
 export const Header = (props) => {
     return(
         <div className="header">
             <div className="container">
-                <div className="logo">
-                    <img src={Logo} alt="" />
-                    <div className="textLogo">
-                        <p>Filmes</p>
-                        <p>Colections</p>
-                    </div>
-                </div>
+                <Logo />
                 <nav>
-                    <li><Link className={props.className} to="/">Home</Link></li>
-                    <li><Link to="/usuario">Usuário</Link></li>
-                    <li><Link to="/filmes">Filmes</Link></li>
-                    <li><Link to="/genero">Gênero</Link></li>
+                    <li><Link className="headerHome" to="/">Home</Link></li>
+                    <li><Link className="headerUsuario" to="/usuario">Usuário</Link></li>
+                    <li><Link className="headerFilmes" to="/filmes">Filmes</Link></li>
+                    <li><Link className="headerGenero" to="/genero">Gênero</Link></li>
                 </nav>
             </div>
         </div>

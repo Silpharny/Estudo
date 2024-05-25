@@ -1,0 +1,39 @@
+@import url('../../index.css');
+
+.usuario {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Assets/bg.webp');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usuario .headerUsuario {
+    padding: .5rem;
+    border: 1px solid;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
+    background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
+}
+
+.usuario .main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.usuario .main .textArea {
+    text-align: center;
+}
+
+.usuario .main .textArea p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

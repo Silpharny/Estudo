@@ -8,6 +8,11 @@
 
     background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
     backdrop-filter: blur(12.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    justify-content: start;
 }
 
 .innerCard img {
@@ -15,5 +20,19 @@
 
     position: relative;
     bottom: 4rem;
-    left: 6rem;
+}
+
+.innerCard .text {
+    position: relative;
+    bottom: 2rem;
+}
+
+.innerCard .text h3 {
+    color: var(--light-orange);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.innerCard .text p {
+    font-size: .9rem;
 }

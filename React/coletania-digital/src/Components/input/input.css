@@ -1,0 +1,21 @@
+
+.input input {
+    width: 20rem;
+    height: 2.2rem;
+    padding: 0 1rem;
+
+    font-size: 1rem;
+    color: black;
+
+    outline: none;
+    border: none;
+
+    background: linear-gradient(91.11deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
+    backdrop-filter: blur(12.5px);
+    border-radius: 8px;
+}
+
+.input input::placeholder {
+    color: rgb(00, 00, 00, 0.3);
+    font-weight: 500;
+}

@@ -1,0 +1,39 @@
+@import url('../../index.css');
+
+.genero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Assets/bg.webp');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.genero .headerGenero { 
+    padding: .5rem;
+    border: 1px solid;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
+    background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
+}
+
+.genero .main {
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.genero .main .textArea p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.genero .main .textArea img {
+    display: block;
+}

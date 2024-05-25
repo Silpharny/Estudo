@@ -1,0 +1,38 @@
+.form .cadastroArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 1.4rem;
+
+    padding: 1.4rem;
+    width: 1200px;
+
+    
+    border: 1px solid;
+    border-image: linear-gradient(to right, white, transparent) 1 round;
+
+    background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
+    backdrop-filter: blur(12.5px);
+}
+
+.form .cadastroArea h3 {
+    font-size: 1.8rem;
+}
+
+.form .cadastroArea .inputArea {
+    display: flex;
+    gap: 3rem;
+}
+
+.form .cadastroArea .inputArea .inputs label {
+    color: var(--light-orange);
+    font-weight: 800;
+    text-align: start;
+}
+
+.form .cadastroArea .inputArea .inputs  {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}

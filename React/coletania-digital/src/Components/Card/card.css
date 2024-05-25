@@ -1,2 +1,7 @@
 @import url('../../index.css');
 
+.card {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
