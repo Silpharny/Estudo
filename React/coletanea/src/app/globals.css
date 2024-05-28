@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 body {
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,22 +14,23 @@ body {
 }
 
 .container {
-  width: 60%;
-  height: 50%;
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 
-  padding: 20px;
+  color: #f8fafc;
+}
 
+
+/*
   border: 1px solid;
   border-image: linear-gradient(to right, white, transparent) 1 round;
 
   background: linear-gradient(90.67deg, rgba(96, 17, 245, 0.228) 0%, rgba(96, 17, 245, 0.057) 98.84%);
   backdrop-filter: blur(12.5px);
-}
-
-.container-color {
-  border: 1px solid;
-  border-image: linear-gradient(to right, white, transparent) 1 round;
-
-  background: linear-gradient(90.67deg, #6011f53a 0%, rgba(96, 17, 245, 0.057) 98.84%);
-  backdrop-filter: blur(12.5px);
-}
+*/
