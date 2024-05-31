@@ -3,6 +3,7 @@ import ContainerOutput from "@/Components/ContainerOutput";
 import Input from "@/Components/Input";
 import FilmIcon from '../../../public/assets/filmIcon.svg'
 
+
 export default function Films() {
   return(
     <div className="w-full flex flex-col gap-4">
@@ -19,14 +20,25 @@ export default function Films() {
         <div className="flex gap-32">
 
           <div className="flex flex-col gap-2 items-start">
-            <label className="text-orange font-bold text-lg" htmlFor="name">Nome</label>
-            <Input type="text" id="name" />
+            <label className="text-orange font-bold text-lg" htmlFor="name">Título do filme</label>
+            <Input type="text" id="name" placeholder="Digite o título" />
+          </div>
+
+          <div className="self-end flex flex-col gap-2 items-start">
+            <label htmlFor="genero" className="text-orange font-bold text-lg">Gênero</label>
+            <select name="genero" id="genero" className="w-60 h-10 px-2 bg-gradient-to-r from-zinc-400 bg-transparent border border-r-0 border-l-zinc-300 border-y-zinc-800 rounded-md outline-none">
+              <option value="terror" className="bg-zinc-700">Selecione o gênero</option>
+              <option value="terror" className="bg-zinc-700">Terror</option>
+              <option value="comedia" className="bg-zinc-700">Comédia</option>
+              <option value="acao" className="bg-zinc-700">Ação</option>
+              <option value="drama" className="bg-zinc-700">Drama</option>
+            </select>
           </div>
 
           <button className="w-60 h-10 px-2 self-end bg-green rounded-md text-black font-bold">Cadastrar</button>
         </div>
-
       </div>
+        <ContainerOutput />
         
     </div>
   );
