@@ -1,20 +1,18 @@
-import ButtonFill from "./ButtonFill"
-import ButtonNoFill from "./ButtonNoFill"
+import ConferenceLogo from '../assets/eventLogo.svg'
 
-function Header() {
-    return(
-        <header className="w-full h-16 px-5 flex justify-around items-center shadow-sm shadow-zinc-300">
-            <h1 className="font-bold text-2xl cursor-default">Logo</h1>
-            <nav>
-                <ul className="flex gap-6">
-                    <li className="px-3 py-1 cursor-pointer hover:opacity-65">Blog</li>
-                    <li className="px-3 py-1 cursor-pointer hover:opacity-65">Docs</li>
-                    <li className="cursor-pointer"><ButtonNoFill title="Login" /></li>
-                    <li className="cursor-pointer"><ButtonFill title="Get Started" /></li>
-                </ul>
-            </nav>
-        </header>
-    )
+function Header(props) {
+  return (
+    <header className="w-full h-16 px-5 flex md:justify-around justify-between items-center shadow-sm shadow-zinc-300 sticky top-0 bg-zinc-50">
+      <img className='w-36 md:w-52' src={ConferenceLogo} alt="Logo" />
+      <nav>
+        <ul className="flex gap-3 items-center">
+          <li className="text-sm md:text-base px-3 py-1 cursor-pointer hover:opacity-65"><a href="#home">Home</a></li>
+          <li className="text-sm md:text-base px-3 py-1 cursor-pointer hover:opacity-65"><a href="#about">About us</a></li>
+          <li className="text-sm md:text-base px-3 py-1 cursor-pointer hover:opacity-65"><a href="#ticket">Get a ticket</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
