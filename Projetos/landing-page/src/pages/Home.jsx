@@ -8,7 +8,6 @@ import JordanReynolds from '../assets/Speakers/Jordan Reynolds.svg'
 import MelissaCollins from '../assets/Speakers/Melissa Collins.svg'
 import SophieStewart from '../assets/Speakers/Sophie Stewart.svg'
 
-import ConferenceBg from '../assets/ConferenceBg.jpg'
 import Conference from '../assets/Conference.svg'
 
 import Form from "../compontents/Form"
@@ -18,13 +17,14 @@ function Home() {
   return (
     <main className="bg-zinc-100 flex flex-col justify-between items-center">
 
-      <section className="p-12 text-center flex flex-col justify-center items-center gap-4 bg-[url('./assets/ConferenceBg.jpg')]  w-full h-[500px] bg-cover bg-center" id="home">
-        <div className="">
+      <section className="p-12 text-center flex flex-col justify-center items-center gap-4 before:bg-[url('./assets/ConferenceBg.jpg')] before:absolute before:w-full before:h-[500px] h-[500px] before:bg-cover before:bg-center before:opacity-100 before:brightness-50 before:z-0 w-full" id="home">
+        <div className="isolate h-full flex flex-col gap-4 justify-center text-zinc-100">
           <h2 className="z-10 font-bold text-5xl">Digital World<br />Conference</h2>
-          <p className="text-sm text-zinc-600">Join industry leaders to learn, inspire and connect</p>
-        </div>
-        <div className="flex flex-col gap-3">
-          <ButtonFill link="#ticket" title="Get a ticket" />
+          <p className="text-sm font-medium opacity-80">Join industry leaders to learn, inspire and connect</p>
+        
+          <div className="flex flex-col gap-3">
+            <ButtonFill link="#ticket" title="Get a ticket" />
+          </div>
         </div>
       </section>
 

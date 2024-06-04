@@ -4,7 +4,7 @@ import Countdown from "react-countdown";
 function CountdownEdit() {
     const renderer = ({ hours, minutes, seconds }) => {
         return (
-            <span className="mt-4 font-bold text-zinc-100 text-2xl flex gap-3 w-72 h-24 py-5 px-4">
+            <span className="mt-4 font-bold text-zinc-100 text-2xl flex gap-3 w-96 h-24 py-5 px-4">
                 <span className="w-96 bg-zinc-800 rounded-md">
                     {hours} 
                     <p className="text-sm font-light">Hours</p>
