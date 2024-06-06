@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/output.css">
+    <title>Calculadora IMC</title>
+</head>
+<body class="bg-gray-100 w-screen h-screen flex align-middle">
+    
+    <main class="bg-white w-96 rounded-xl m-auto overflow-auto">
+
+        <h1 class="text-center pt-10 text-2xl font-bold">Calculadora IMC</h1>
+        
+        <div class="flex flex-col p-7" id="informations-inputs">
+            
+            <label class="pb-2" for="weight">Weight</label>
+            <input class=" h-10 border border-gray-300 outline-none p-4 mb-5" type="number" name="weight" id="weight" placeholder="KG">
+
+            <label class="pb-2" for="height">Height</label>
+            <input class=" h-10 border border-gray-300 outline-none p-4" type="number" name="height" id="height" placeholder="CM">
+
+            <button class="my-5 p-2 border-none border-r-2 bg-green-300 hover:bg-green-200 transition-all" id="calculate">Calculate</button>
+        </div>
+
+        <div class="informations-response">
+
+        </div>
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
