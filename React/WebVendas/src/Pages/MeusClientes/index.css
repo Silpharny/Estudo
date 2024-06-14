@@ -1,0 +1,29 @@
+@import '../../global.css';
+
+.main_meus_clientes{
+    background-color: var(--roxo);
+    color: white;
+    height: 100vh;
+}
+
+.main_meus_clientes .topo{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_meus_clientes .topo .btn{
+    padding: 10px 15px;
+    font-size: 1.6em;
+}
+
+section{
+    background-color: white;
+    color: var(--laranja);
+    width: 100vw;
+    justify-self: baseline;
+    border-radius: 40px 40px 0 0;
+    padding: 40px;
+    height: inherit;
+}

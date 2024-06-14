@@ -1,0 +1,25 @@
+@import '../../global.css';
+
+.main_home{
+    background-color: var(--roxo);
+    width: 100vw;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.main_home img{
+    max-width: 200px;
+}
+
+.main_home .btn{
+    color: white;
+    padding: 15px 20px;
+    width: 200px;
+    margin-top: 40px;
+}
+

@@ -1,0 +1,47 @@
+@import '../../global.css';
+
+.cliente{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(176, 172, 189, 0.5);
+    border-radius: 12px;
+    padding: 20px 10px;
+    margin: 20px 0;
+}
+
+.cliente .inicial{
+    background-color: var(--roxo);
+    color: white;
+    border-radius: var(--raio);
+    padding: 10px 15px ;
+}
+
+.cliente .nome{
+    color: var(--cinza);
+}
+
+.cliente .preco{
+    color: var(--roxo);
+    display: block;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.update {
+    display: flex;
+    position: absolute;
+    gap: 12px;
+    background: #fff;
+}
+
+.update input {
+    padding: 16px;
+    border: solid 1px #ccc;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.update button {
+    width: 82px;
+}
