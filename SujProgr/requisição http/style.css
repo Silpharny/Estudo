@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+img{
+    max-width: 450px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
