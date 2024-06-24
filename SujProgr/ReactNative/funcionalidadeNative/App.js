@@ -1,41 +1,48 @@
-import React, { useState } from "react";
-import { View, Text, StatusBar, StyleSheet } from "react-native";
+import React, { createElement } from "react";
+import { NavigationContainer } from "@react-navigation/native"; // Importação do container que vai revestir as rotas
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { Picker } from "@react-native-picker/picker";
+import { Feather } from "@expo/vector-icons"; // Importando os icones
 
-export default function app() {
-  const [carroSelecionado, setCarroSelecionado] = useState(0);
+// Importação das páginas
+import Home from "./src/pages/Home";
+import Sobre from "./src/pages/Sobre";
 
-  const [carros, setCarros] = useState([
-    { key: 1, name: "Golf" },
-    { key: 2, name: "Sandeiro" },
-    { key: 3, name: "Uno" },
-    { key: 4, name: "Civic" },
-    { key: 5, name: "Corola" },
-  ]);
+const Tab = createBottomTabNavigator(); // variavel para dar referencia ao tabBar
 
-  let carrosItem = carros.map((value, key) => {
-    return <Picker.Item key={key} value={key} label={value.name} />;
-  });
-
+export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={"default"} />
-
-      <Picker
-        selectedValue={carroSelecionado}
-        onValueChange={(itemValue, itemIndex) => setCarroSelecionado(itemValue)}
-      >
-        {carrosItem}
-      </Picker>
-
-      <Text>Carro: {carros[carroSelecionado].name}</Text>
-    </View>
+    <NavigationContainer>
+      <Tab.Navigator>
+        {" "}
+        {/* Criar uma ativar a tabBar */}
+        <Tab.Screen // Criar rota de navegação
+          name="Home" // Dar o nome para rota
+          component={Home} // Referenciar a página da rota
+          options={{
+            // Estilizar navBar
+            // Adicionando icone a tabBar
+            tabBarIcon: ({ color, size }) => {
+              return (
+                <Feather
+                  name="home"
+                  color={color}
+                  size={size} // Criando uma função anônima que vai receber o color e size padrão do icone, ele vai retornar um icone
+                />
+              );
+            },
+          }}
+        />
+        <Tab.Screen
+          name="Sobre"
+          component={Sobre}
+          options={{
+            tabBarIcon: ({ color, size }) => {
+              return <Feather name="help-circle" color={color} size={size} />;
+            },
+          }}
+        />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
