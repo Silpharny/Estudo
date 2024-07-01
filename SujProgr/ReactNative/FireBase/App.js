@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 
 export default function App() {
   const [name, setName] = useState("Carregando...");
+  
   const [inputName, setInputName] = useState("");
 
   useEffect(() => {

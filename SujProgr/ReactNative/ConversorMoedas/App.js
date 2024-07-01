@@ -7,6 +7,7 @@ import {
   StatusBar,
   TextInput,
   ActivityIndicator,
+  Keyboard,
 } from "react-native";
 import { PickerItem } from "./src/Picker";
 
@@ -17,7 +18,7 @@ export default function App() {
   const [coin, setCoin] = useState([]);
   const [selectedCoin, setSelectedCoin] = useState(null);
 
-  const [coinBValue, setCoinBValue] = useState(0);
+  const [coinBValue, setCoinBValue] = useState("");
   const [coinValue, setCoinValue] = useState(null);
   const [convertValue, setConvertValue] = useState(0);
 
@@ -25,6 +26,7 @@ export default function App() {
     async function loadingMoney() {
       const response = await api.get("all");
       let arrayMoney = [];
+      console.log(Object.keys(response.data));
       Object.keys(response.data).map((key) => {
         arrayMoney.push({
           key: key,
@@ -38,6 +40,24 @@ export default function App() {
     }
     loadingMoney();
   }, []);
+
+  async function converter() {
+    if (coinBValue === 0 || coinBValue === "" || selectedCoin === null) {
+      return;
+    }
+
+    const response = await api.get(`all/${selectedCoin}-BRL`);
+    let resultado = response.data[selectedCoin].ask * parseFloat(coinBValue);
+    setConvertValue(
+      `${resultado.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL",
+      })}`
+    );
+    setCoinValue(coinBValue);
+
+    Keyboard.dismiss();
+  }
 
   if (loading) {
     return (
@@ -76,17 +96,19 @@ export default function App() {
           onChangeText={(value) => setCoinBValue(value)}
         />
       </View>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={converter}>
         <Text style={styles.btnText}>Converter</Text>
       </TouchableOpacity>
 
       {convertValue !== 0 && (
         <View style={styles.areaAnswer}>
-          <Text style={styles.convertValue}>3 BTC</Text>
+          <Text style={styles.convertValue}>
+            {coinValue} {selectedCoin}
+          </Text>
           <Text style={{ fontSize: 18, margin: 8, color: "#000" }}>
             Corresponde à:
           </Text>
-          <Text style={styles.convertValue}>R$ 100,00</Text>
+          <Text style={styles.convertValue}>{convertValue}</Text>
         </View>
       )}
     </View>
