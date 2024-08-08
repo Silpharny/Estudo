@@ -5,7 +5,7 @@ function register(
   name: string,
   email: string,
   password: string,
-  age?: number
+  age = 18
 ): void {
   let data = { name, email, password, age }
   console.log(data)

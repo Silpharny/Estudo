@@ -11,10 +11,16 @@ store = {
   status: true,
 }
  */
-const burguerK = {
+const burgerK = {
     name: "BK",
     address: "somewhere",
     status: true,
-    // promocao:"10% de desconto" -> Se eu tentasse colocar essa propriedade, o TS me daria um erro, isso porque o contrato só tem 3 propriedades
+    // promo :"10% OFF" -> Se eu tentasse colocar essa propriedade, o TS me daria um erro, isso porque o contrato só tem 3 propriedades
 };
-console.log(burguerK);
+console.log(burgerK);
+function newStore({ name, address, status }) {
+    console.log(`Name: ${name}`);
+    console.log(`Address: ${address}`);
+    console.log(`Status: ${status}`);
+}
+newStore({ name: "BK", address: "somewhere", status: true });

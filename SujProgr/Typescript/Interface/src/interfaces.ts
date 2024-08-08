@@ -11,19 +11,27 @@ store = {
 }
  */
 
-// Contrato -> Todo objeto store precisa ter obrigatóriamente as 3 propriedades
+// Contrato -> Todo objeto store precisa ter obrigatoriamente as 3 propriedades
 interface StoreProps {
   name: string
   address: string
   status: boolean
 }
 
-const burguerK: StoreProps = {
+const burgerK: StoreProps = {
   name: "BK",
   address: "somewhere",
   status: true,
 
-  // promocao:"10% de desconto" -> Se eu tentasse colocar essa propriedade, o TS me daria um erro, isso porque o contrato só tem 3 propriedades
+  // promo :"10% OFF" -> Se eu tentasse colocar essa propriedade, o TS me daria um erro, isso porque o contrato só tem 3 propriedades
 }
 
-console.log(burguerK)
+console.log(burgerK)
+
+function newStore({ name, address, status }: StoreProps): void {
+  console.log(`Name: ${name}`)
+  console.log(`Address: ${address}`)
+  console.log(`Status: ${status}`)
+}
+
+newStore({ name: "BK", address: "somewhere", status: true })
